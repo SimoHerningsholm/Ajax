@@ -1,0 +1,26 @@
+﻿#vareDataTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+    #vareDataTable thead tr:nth-child(1) {
+        background-color: #b3b3b3;
+    }
+
+    #vareDataTable td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    #vareDataTable th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    #vareDataTable tr:nth-child(even) {
+        background-color: #dddddd;
+    }

@@ -1,0 +1,69 @@
+﻿#headerContainer {
+    background-color: #B3B3B3;
+    height: 10vh;
+}
+header h1 {
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+    header h1 a {
+        text-decoration: none;
+        color: black;
+    }
+
+        header h1 a:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+#pageHeaderContainer {
+    display: flex;
+    align-items: center;
+}
+
+#navigationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav {
+    padding-right: 15px;
+}
+
+    nav button {
+        width: 200px;
+        height: 50px;
+    }
+
+main {
+    height: 80vh;
+}
+
+#indholdsContainer {
+    overflow:auto;
+    height: 80vh;
+    padding-top: 2vh;
+}
+
+#frontPageIndholdsContainerP {
+    margin-left: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    background-color: #B3B3B3;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+    footer p {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }

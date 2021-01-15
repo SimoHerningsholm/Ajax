@@ -1,0 +1,20 @@
+﻿#formWrapper {
+    width:30%;
+    margin:auto;
+}
+#formHeader {
+    font-weight:bold;
+    padding:15px;
+    background-color: #B3B3B3;
+}
+#formControls input{
+    margin-top:5px;
+}
+#formFooter {
+    margin-top:5px;
+    background-color: #B3B3B3;
+    padding:10px;
+}
+#formFooter input{
+    width:20%;
+}

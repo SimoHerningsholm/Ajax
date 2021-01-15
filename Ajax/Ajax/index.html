@@ -1,0 +1,35 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Loader scripts der gør sig gældende for hele siden og alle undersider-->
+    <script src="Scripts/jquery-3.5.1.js"></script>
+    <script src="JS/page.js"></script>
+    <!-- Loader alle styles der skal anvendes-->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Styles/pageStyles.css" rel="stylesheet" />
+    <link href="Styles/opdaterStyles.css" rel="stylesheet" />
+    <link href="Styles/deleteStyles.css" rel="stylesheet" />
+    <link href="Styles/opretStyles.css" rel="stylesheet" />
+    <link href="Styles/varelagerStyles.css" rel="stylesheet" />
+    <title>Ajax</title>
+</head>
+<body>
+    <!-- Laver en række til header sektion-->
+    <div class="row" id="headerContainer">
+    </div>
+    <!-- laver en række til main sektion -->
+    <div class="row">
+        <!-- laver en stor kolonne til main sektion der indeholder indholdsContaineren som eksterne sider læses ind i vha ajax load metode-->
+        <div class="col-sm-12">
+            <main>
+                <!-- Det kunne nok gøres mere elegant end at loade hele html sider ind i en div-->
+                <div id="indholdsContainer">
+                </div>
+            </main>
+        </div>
+    </div>
+    <!-- Laver en række til footer sektion-->
+    <div class="row" id="footerContainer">
+    </div>
+</body>
+</html>

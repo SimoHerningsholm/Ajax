@@ -1,0 +1,27 @@
+﻿<!-- Loader script der skal anvendes for denne side-->
+<script src="../JS/opdater.js"></script>
+<!-- Laver en form wrapper til at indeholde formen-->
+<div id="formWrapper">
+    <!-- Laver en form som skal sende data til server ved submit event-->
+    <form id="opdaterForm">
+        <!-- Laver overskrift til formen-->
+        <div id="formHeader">
+            Opdater Varer
+        </div>
+        <!-- Laver form controls som formen udgøres af-->
+        <div id="formControls">
+            <select id="id" name="id" class="form-control" placeholder="id" autofocus />
+            <input type="text" id="vareNavn" name="vareNavn" class="form-control" placeholder="Varenavn" maxlength="50" required />
+            <input type="text" id="vareBeskrivelse" name="vareBeskrivelse" class="form-control" placeholder="Vare beskrivelse" maxlength="50" required />
+            <input type="number" id="vareLokation" name="vareLokation" class="form-control" placeholder="Vare lokation" min="1" required />
+            <input type="number" id="lagerBeholdning" name="lagerBeholdning" class="form-control" placeholder="Lager beholdning" min="1" required />
+            <input type="number" id="indkoebspris" name="indkoebspris" class="form-control" placeholder="Indkøbs pris" min="1" required />
+            <input type="number" id="fortjeneste" name="fortjeneste" class="form-control" step="0.01" placeholder="Fortjeneste" min="0.01" required />
+        </div>
+        <!-- laver en formfooter sektion-->
+        <div id="formFooter">
+            <!-- Laver submit knap som brugerne trykker på for at submitte form-->
+            <input type="submit" id="vareSubmit" class="btn btn-secondary" />
+        </div>
+    </form>
+</div>
